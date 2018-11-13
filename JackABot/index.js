@@ -49,16 +49,6 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (!msg.guild) {   return; }
-  const images = [
-    'https://img.rasset.ie/000f70fd-800.jpg',
-    'https://i.pinimg.com/236x/f1/2a/01/f12a01f20e09e1ab5af0050aa9fe513b--jack-septiceye-great-friends.jpg',
-    'https://78.media.tumblr.com/dd76b6b95647445f7d19057568dbb6a0/tumblr_oydvosT7dx1ssfeqho7_400.gif',
-    'https://78.media.tumblr.com/59aee1e94d0a7c9c2ba64f0015256c63/tumblr_ovstwl5t4A1qzmm07o3_1280.jpg',
-    'https://scontent-lax3-2.cdninstagram.com/vp/c808fe9a8366c7bbda5c90c9aa0623d2/5C38582C/t51.2885-15/e35/s480x480/40024905_550601878727249_2923046708185996241_n.jpg',
-    'https://scontent-cdg.cdninstagram.com/vp/2961f0ca0028239691cea8f0742afb3c/5C3C856B/t51.2885-15/e35/41895310_325084411592454_7518052944600354059_n.jpg',
-    'https://i.pinimg.com/originals/6b/7b/0f/6b7b0fd07e7706e76045c1c1c0089702.jpg',
-    'https://cdn.discordapp.com/attachments/491958903849091088/497040004770430986/b8c9f2b5-925a-4445-b514-12c78f65a72e.gif'
-  ];
   var rand = Math.floor(Math.random() * images.length);
   var randomImage = images[rand];
   var hToUser = hToUser;
